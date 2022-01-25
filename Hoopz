@@ -1,0 +1,366 @@
+-- Anchor X
+-- Version: 3.2
+
+-- Instances:
+
+local AnchorX = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local BackgroundAddon = Instance.new("UICorner")
+local OverlayBG = Instance.new("Frame")
+local Addon = Instance.new("UICorner")
+local NameLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local Profile_Background = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local Thumbnail = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local DisplayName = Instance.new("TextLabel")
+local Username = Instance.new("TextLabel")
+local Background2 = Instance.new("Frame")
+local BackgroundAddon_2 = Instance.new("UICorner")
+local OverlayBG_2 = Instance.new("Frame")
+local Addon_2 = Instance.new("UICorner")
+local NameLabel_2 = Instance.new("TextLabel")
+local Exit = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Loompic = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+AnchorX.Name = "AnchorX"
+AnchorX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AnchorX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Background.Name = "Background"
+Background.Parent = AnchorX
+Background.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Background.Position = UDim2.new(0.0303030312, 0, 0.555142522, 0)
+Background.Size = UDim2.new(0, 534, 0, 319)
+
+BackgroundAddon.Name = "BackgroundAddon"
+BackgroundAddon.Parent = Background
+
+OverlayBG.Name = "OverlayBG"
+OverlayBG.Parent = Background
+OverlayBG.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+OverlayBG.Size = UDim2.new(0, 534, 0, 36)
+
+Addon.CornerRadius = UDim.new(0, 3)
+Addon.Name = "Addon"
+Addon.Parent = OverlayBG
+
+NameLabel.Name = "NameLabel"
+NameLabel.Parent = OverlayBG
+NameLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel.BackgroundTransparency = 1.000
+NameLabel.Position = UDim2.new(0.0205992498, 0, 0.111111112, 0)
+NameLabel.Size = UDim2.new(0, 195, 0, 28)
+NameLabel.Font = Enum.Font.GothamSemibold
+NameLabel.Text = "Anchor X"
+NameLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel.TextSize = 15.000
+NameLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = Background
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.923220992, 0, 0.0188087747, 0)
+TextButton.Size = UDim2.new(0, 41, 0, 26)
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Frame.Parent = Background
+Frame.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+Frame.Position = UDim2.new(0, 0, 0.100313477, 0)
+Frame.Size = UDim2.new(0, 161, 0, 287)
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Frame
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0, 0, 0.0139372824, 0)
+TextButton_2.Size = UDim2.new(0, 161, 0, 36)
+TextButton_2.Font = Enum.Font.GothamSemibold
+TextButton_2.Text = "Main"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0, 0, 0.139372826, 0)
+TextButton_3.Size = UDim2.new(0, 161, 0, 36)
+TextButton_3.Font = Enum.Font.GothamSemibold
+TextButton_3.Text = "Scripts"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+Profile_Background.Name = "Profile_Background"
+Profile_Background.Parent = Background
+Profile_Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Profile_Background.BackgroundTransparency = 1.000
+Profile_Background.Size = UDim2.new(0.215226933, 0, 0.133437991, 0)
+Profile_Background.Image = "rbxassetid://3570695787"
+Profile_Background.ImageTransparency = 1.000
+Profile_Background.ScaleType = Enum.ScaleType.Slice
+Profile_Background.SliceCenter = Rect.new(100, 100, 100, 100)
+Profile_Background.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(39, 39, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))}
+UIGradient.Rotation = 30
+UIGradient.Parent = Profile_Background
+
+Thumbnail.Name = "Thumbnail"
+Thumbnail.Parent = Profile_Background
+Thumbnail.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Thumbnail.BackgroundTransparency = 1.000
+Thumbnail.Position = UDim2.new(2.33466625, 0, 1.99697566, 0)
+Thumbnail.Size = UDim2.new(1.28971457, 0, 3.4195087, 0)
+Thumbnail.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_2.Parent = Thumbnail
+
+DisplayName.Name = "DisplayName"
+DisplayName.Parent = Profile_Background
+DisplayName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DisplayName.BackgroundTransparency = 1.000
+DisplayName.Position = UDim2.new(2.33011723, 0, 5.66170025, 0)
+DisplayName.Size = UDim2.new(1.2942636, 0, 0.435294122, 0)
+DisplayName.Font = Enum.Font.GothamSemibold
+DisplayName.Text = "DisplayName"
+DisplayName.TextColor3 = Color3.fromRGB(255, 255, 255)
+DisplayName.TextScaled = true
+DisplayName.TextSize = 14.000
+DisplayName.TextWrapped = true
+
+Username.Name = "Username"
+Username.Parent = Profile_Background
+Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Username.BackgroundTransparency = 1.000
+Username.Position = UDim2.new(2.33011723, 0, 6.0969944, 0)
+Username.Size = UDim2.new(1.29426348, 0, 0.387977481, 0)
+Username.Font = Enum.Font.GothamSemibold
+Username.Text = "@username"
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+
+Background2.Name = "Background2"
+Background2.Parent = AnchorX
+Background2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Background2.Position = UDim2.new(0.0303030312, 0, 0.555142522, 0)
+Background2.Size = UDim2.new(0, 534, 0, 319)
+Background2.Visible = false
+
+BackgroundAddon_2.Name = "BackgroundAddon"
+BackgroundAddon_2.Parent = Background2
+
+OverlayBG_2.Name = "OverlayBG"
+OverlayBG_2.Parent = Background2
+OverlayBG_2.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+OverlayBG_2.Size = UDim2.new(0, 534, 0, 36)
+
+Addon_2.CornerRadius = UDim.new(0, 3)
+Addon_2.Name = "Addon"
+Addon_2.Parent = OverlayBG_2
+
+NameLabel_2.Name = "NameLabel"
+NameLabel_2.Parent = OverlayBG_2
+NameLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel_2.BackgroundTransparency = 1.000
+NameLabel_2.Position = UDim2.new(0.0205992498, 0, 0.111111112, 0)
+NameLabel_2.Size = UDim2.new(0, 195, 0, 28)
+NameLabel_2.Font = Enum.Font.GothamSemibold
+NameLabel_2.Text = "Anchor X"
+NameLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameLabel_2.TextSize = 15.000
+NameLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Exit.Name = "Exit"
+Exit.Parent = Background2
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
+Exit.Position = UDim2.new(0.923220992, 0, 0.0188087747, 0)
+Exit.Size = UDim2.new(0, 41, 0, 26)
+Exit.Font = Enum.Font.GothamBlack
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+Frame_2.Parent = Background2
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+Frame_2.Position = UDim2.new(0, 0, 0.100313477, 0)
+Frame_2.Size = UDim2.new(0, 161, 0, 287)
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = Frame_2
+
+TextButton_4.Parent = Frame_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0, 0, 0.0139372824, 0)
+TextButton_4.Size = UDim2.new(0, 161, 0, 36)
+TextButton_4.Font = Enum.Font.GothamSemibold
+TextButton_4.Text = "Main"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = Frame_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.BackgroundTransparency = 1.000
+TextButton_5.Position = UDim2.new(0, 0, 0.139372826, 0)
+TextButton_5.Size = UDim2.new(0, 161, 0, 36)
+TextButton_5.Font = Enum.Font.GothamSemibold
+TextButton_5.Text = "Scripts "
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextLabel.Parent = Background2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+TextLabel.Position = UDim2.new(0.322097331, 0, 0.150470212, 0)
+TextLabel.Size = UDim2.new(0, 352, 0, 37)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Main Scripts"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = TextLabel
+
+TextButton_6.Parent = Background2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+TextButton_6.Position = UDim2.new(0.322097331, 0, 0.579937339, 0)
+TextButton_6.Size = UDim2.new(0, 352, 0, 37)
+TextButton_6.Font = Enum.Font.GothamSemibold
+TextButton_6.Text = "Double Speed"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = TextButton_6
+
+TextButton_7.Parent = Background2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+TextButton_7.Position = UDim2.new(0.322097331, 0, 0.435736686, 0)
+TextButton_7.Size = UDim2.new(0, 352, 0, 37)
+TextButton_7.Font = Enum.Font.GothamSemibold
+TextButton_7.Text = "Normal Speed"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = TextButton_7
+
+Loompic.Name = "Loompic"
+Loompic.Parent = Background2
+Loompic.BackgroundColor3 = Color3.fromRGB(255, 28, 119)
+Loompic.Position = UDim2.new(0.322097331, 0, 0.291536003, 0)
+Loompic.Size = UDim2.new(0, 352, 0, 37)
+Loompic.Font = Enum.Font.GothamSemibold
+Loompic.Text = "Aimbot (Loompic)"
+Loompic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Loompic.TextSize = 14.000
+Loompic.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Loompic/Hoopz-Aimlock/main/Aimlock"))()
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = Loompic
+
+-- Scripts:
+
+local function TAGCRKW_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(TAGCRKW_fake_script)()
+local function DRLCO_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.AnchorX.Background2.Visible = true
+	end)
+		
+end
+coroutine.wrap(DRLCO_fake_script)()
+local function BCDMIDA_fake_script() -- Profile_Background.ProfileScript 
+	local script = Instance.new('LocalScript', Profile_Background)
+
+	local player = game.Players.LocalPlayer -- player 
+	
+	
+	
+	local thumbnail, loaded = game.Players:GetUserThumbnailAsync(player.userId, "HeadShot", "Size420x420") -- get player thumbnail
+	if not loaded then
+		print("Thumbnail not loaded!")
+	end
+	
+	script.Parent.Thumbnail.Image = thumbnail -- set image of Thumbnail
+	script.Parent.DisplayName.Text = player.DisplayName -- set DisplayName of the player
+	script.Parent.Username.Text = "@"..player.Name
+end
+coroutine.wrap(BCDMIDA_fake_script)()
+local function CLVBDWM_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(CLVBDWM_fake_script)()
+local function QMRY_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.AnchorX.Background2.Visible = false
+	end)
+end
+coroutine.wrap(QMRY_fake_script)()
+local function OJLNGDV_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 18
+	end)
+end
+coroutine.wrap(OJLNGDV_fake_script)()
+local function ZTPJPCL_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+end
+coroutine.wrap(ZTPJPCL_fake_script)()
